@@ -55,6 +55,12 @@
 
 &emsp;&emsp;&emsp;&emsp;get_available_proxies.py  # 获取免费IP代理并检测IP代理可用性  
 
-&emsp;&emsp;&emsp;&emsp;proxies.txt  # 可用IP代理文件  
+&emsp;&emsp;&emsp;&emsp;proxies.txt  # 可用IP代理文件
+  
+│
+
+└─result  # 输出到mysql的截图
+
+&emsp;&emsp;&emsp;&emsp; mysql.png
 
 ##    
