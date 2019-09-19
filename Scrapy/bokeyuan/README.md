@@ -50,12 +50,13 @@
   
 │&emsp;&emsp;└─spiders
   
-│&emsp;&emsp;&emsp;&emsp;bokeyuanInfo.py  # 博客园爬虫  
-└─pproxies  
+│&emsp;&emsp;&emsp;&emsp;bokeyuanInfo.py  # 博客园爬虫
+  
+└─proxies  
 
-&emsp;&emsp;&emsp;&emsp;get_available_proxies.py  # 获取免费IP代理并检测IP代理可用性  
+│&emsp;&emsp;&emsp;&emsp;get_available_proxies.py  # 获取免费IP代理并检测IP代理可用性  
 
-&emsp;&emsp;&emsp;&emsp;proxies.txt  # 可用IP代理文件
+│&emsp;&emsp;&emsp;&emsp;proxies.txt  # 可用IP代理文件
   
 │
 
