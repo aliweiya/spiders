@@ -26,21 +26,35 @@
 ##   
 
 项目目录 :
-│&emsp;bokeyuan.sql  # mysql数据库文件  
-│&emsp;main.py       # 程序入口程序，从这里运行  
-│&emsp;scrapy.cfg      
-│  
-└─bokeyuan     # Scrapy爬虫主要内容  
+│&emsp;bokeyuan.sql  # mysql数据库文件
+  
+│&emsp;main.py       # 程序入口程序，从这里运行
+  
+│&emsp;scrapy.cfg
+      
+│
+  
+└─bokeyuan     # Scrapy爬虫主要内容
+  
 │&emsp;&emsp;│&nbsp;&nbsp;items.py&emsp;&emsp;# 定义爬取 的数据结构  
+
 │&emsp;&emsp;│&nbsp;&nbsp;middlewares.py       # 爬取中间件  
-│&emsp;&emsp;│&nbsp;&nbsp;pipelines.py         # 数据管道  
+
+│&emsp;&emsp;│&nbsp;&nbsp;pipelines.py         # 数据管道
+  
 │&emsp;&emsp;│&nbsp;&nbsp;settings.py          # 全局配置 文件  
-│&emsp;&emsp;│&nbsp;&nbsp;__init__.py  
-│&emsp;&emsp;│  
-│&emsp;&emsp;└─spiders  
+
+│&emsp;&emsp;│&nbsp;&nbsp;__init__.py
+  
+│&emsp;&emsp;│
+  
+│&emsp;&emsp;└─spiders
+  
 │&emsp;&emsp;&emsp;&emsp;bokeyuanInfo.py  # 博客园爬虫  
 └─pproxies  
+
 &emsp;&emsp;&emsp;&emsp;get_available_proxies.py  # 获取免费IP代理并检测IP代理可用性  
+
 &emsp;&emsp;&emsp;&emsp;proxies.txt  # 可用IP代理文件  
 
 ##    
