@@ -6,6 +6,21 @@
 # https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
 from scrapy import signals
+from bokeyuan.settings import IP_POOL
+import random
+
+
+class MyproxiesSpiderMiddleware(object):
+    def __init__(self, ip=''):
+        self.ip = ip
+
+    def process_request(self, request, spider):
+        thisip = random.choice(IP_POOL)
+        print("this is ip:" + thisip)
+        request.meta["proxy"] = "http://" + thisip
+
+    def process_response(self, request, response, spider):
+        return response
 
 
 class BokeyuanSpiderMiddleware(object):
