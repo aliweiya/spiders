@@ -1,0 +1,15 @@
+# 项目目录
+
+│  bokeyuan.sql  # mysql数据库文件
+│  main.py       # 程序入口程序，从这里运行
+│  scrapy.cfg    
+│
+└─bokeyuan     # Scrapy爬虫主要内容
+    │  items.py             # 定义爬取的数据结构
+    │  middlewares.py       # 爬取中间件
+    │  pipelines.py         # 数据管道
+    │  settings.py          # 全局配置文件
+    │  __init__.py
+    │
+    └─spiders
+            bokeyuanInfo.py  # 博客园爬虫
